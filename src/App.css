@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  border-radius: 50%;
+  border: 1px solid #ff4a4a;
+  width: 300px;
+}
+
+.nameTitle{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.jobTitle{
+  margin-top: 0px;
+}
+
+.links{
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  /* color: #61dafb; */
+}
+
+a {
+  color: #ffe6e6;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ff4a4a;
+  font-size: 45px;
+  text-decoration: none;
+  padding: 15px;
+}
+a:hover {
+   color: #ff4a4a;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #ffe6e6;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:#ffe6e6;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
