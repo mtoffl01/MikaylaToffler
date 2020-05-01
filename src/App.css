@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -20,10 +21,12 @@
   font-size: 20px;
   display: flex;
   flex-direction: row;
-  /* color: #61dafb; */
 }
 
-a {
+button {
+  background:none;
+  border:none;
+  cursor: pointer;
   color: #ffe6e6;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ff4a4a;
@@ -31,14 +34,13 @@ a {
   text-decoration: none;
   padding: 15px;
 }
-a:hover {
+button:hover {
    color: #ff4a4a;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: #ffe6e6;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -48,11 +50,48 @@ a:hover {
   color:#ffe6e6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Projects{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
 }
+
+.Project-img {
+  width: 300px;
+}
+
+/* .display-enter {
+  top: var(--menu-starting-top);
+  width: var(--toggler-width);
+  max-height: var(--toggler-height);
+  color: var(--fade-from-color);
+  background-color: var(--toggler-bg-color);
+}
+
+.display-enter-active {
+  top: var(--menu-ending-top);
+  width: var(--menu-width);
+  max-height: var(--menu-max-height);
+  color: var(--fade-to-color);
+  background-color: var(--menu-bg-color);
+  transition: all var(--timeout);
+}
+
+.display-exit {
+  top: var(--menu-ending-top);
+  width: var(--menu-width);
+  max-height: var(--menu-max-height);
+  color: var(--fade-to-color);
+  background-color: var(--menu-bg-color);
+}
+
+.display-exit-active {
+  top: var(--menu-starting-top);
+  width: var(--toggler-width);
+  max-height: var(--toggler-height);
+  color: var(--fade-from-color);
+  background-color: var(--toggler-bg-color);
+  transition: all var(--timeout);
+} */

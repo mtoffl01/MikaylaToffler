@@ -1,20 +1,12 @@
 import React from 'react';
-import HomePage from './components/HomePage.js';
-import { BrowserRouter as Router, Link } from 'react-router-dom'
-import {Switch} from 'react-router-dom'
+import MainPage from './components/MainPage.js';
 // import Linker from './Linker.js'
 
 function App() {
   return (
-    <Router>
       <div className="App">
-        <HomePage />
+        <MainPage />
       </div>
-      <Switch>
-        {/* <Route exact path="/projects" component={Projects} />
-        <Route path="/about" component={AboutMe} /> */}
-      </Switch>
-    </Router>
   );
 }
 

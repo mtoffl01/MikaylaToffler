@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-const Linker = (props) => {
+const Linker = () => {
   return(
     <div>
-      <Link to={`/${props.pageName}`}>{props.pageName}</Link>
+      <Link to="/about">about</Link>
+      <Link to="/projects">projects</Link>
+      <Link to="/connect">connect</Link>
     </div>
   )
 }
