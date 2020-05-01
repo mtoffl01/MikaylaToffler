@@ -5,6 +5,8 @@ import Projects from './Projects'
 import cx from 'classnames';
 import {CSSTransition} from 'react-transition-group';
 import { animateScroll } from "react-scroll";
+import About from './About'
+import Connect from './Connect'
 
 class MainPage extends React.Component{
   constructor(props){
@@ -24,7 +26,7 @@ class MainPage extends React.Component{
       displayAbout: true,
       displayProjects: false,
       displayConnect: false
-    })
+    }, this.scrollToBottom)
   }
   displayProjects(){
     this.setState({
@@ -38,11 +40,11 @@ class MainPage extends React.Component{
       displayAbout: false,
       displayProjects: false,
       displayConnect: true
-    })
+    }, this.scrollToBottom)
   }
   scrollToBottom() {
     animateScroll.scrollToBottom({
-      containerId: "Projects"
+      containerId: "Section"
     });
   }
   render(){
@@ -50,6 +52,8 @@ class MainPage extends React.Component{
       <div>
         <Header displayAbout={this.displayAbout} displayProjects={this.displayProjects} displayConnect={this.displayConnect}/>
           { this.state.displayProjects && (<Projects />) }
+          { this.state.displayAbout && (<About />)}
+          { this.state.displayConnect && (<Connect />)}
       </div>
     )
   }
