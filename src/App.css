@@ -8,7 +8,9 @@
   border-radius: 50%;
   border: 1px solid #ff4a4a;
   width: 300px;
+  filter: brightness(110%)
 }
+
 
 .nameTitle{
   margin-top: 0px;
