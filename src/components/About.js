@@ -1,6 +1,5 @@
 import React from 'react';
 import {cityKids, dumbo, washingtonSquare} from '../images/'
-import ArrowTop from './ArrowTop'
 
 const About = (props) => {
   return(
