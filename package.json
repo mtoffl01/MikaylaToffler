@@ -2,7 +2,7 @@
   "name": "portfol",
   "version": "0.1.0",
   "private": true,
-  // "homepage": "https://mtoffl01.github.io/myPortfolio",
+  "homepage": "https://mtoffl01.github.io/myPortfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
@@ -29,7 +29,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    // "predeploy": ""
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
