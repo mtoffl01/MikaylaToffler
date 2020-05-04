@@ -1,6 +1,20 @@
 import React from 'react';
 import {tastemakers, tuftsSights, graceShopper} from '../images/'
+import SingleProject from './SingleProject';
 
+// class Projects extends React.Component {
+//   constructor(){
+//     super();
+//     this.renderItem = this.renderItem.bind(this);
+//     this.scrollIntoView = this.scrollIntoView(this);
+//   }
+//   renderItem(item){
+//     return <SingleProject description
+//   }
+//   scrollIntoView(domNode){
+
+//   }
+// }
 const Projects = () => {
   return(
     <div className="Section Project">
