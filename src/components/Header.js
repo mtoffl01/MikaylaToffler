@@ -3,7 +3,7 @@ import { me } from '../images/';
 
 const Header = (props) => {
   return (
-    <header className="App-header">
+    <div className="App-header">
       <img src={me} className="App-logo" alt="me" />
       <h1 className = "nameTitle">Mikayla Toffler</h1>
       <h3 className = "jobTitle">Fullstack Software Engineer</h3>
@@ -12,7 +12,7 @@ const Header = (props) => {
         <button onClick={props.displayProjects}>projects</button>
         <button onClick={props.displayConnect}>connect</button>
       </div>
-    </header>
+    </div>
   )
 }
 

@@ -5,7 +5,7 @@ const About = (props) => {
   return(
     <div className="Section About" data-aos="fade-up" data-offset="100">
       <h2>
-          NYC native and Tufts University graduate
+          NYC NATIVE AND TUFTS UNIVERSITY GRADUATE
       </h2>
       <div className="About-imgs">
         <img src={cityKids} alt="City Kids"/>
