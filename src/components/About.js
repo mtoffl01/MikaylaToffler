@@ -3,17 +3,16 @@ import {cityKids, dumbo, washingtonSquare} from '../images/'
 
 const About = (props) => {
   return(
-    <div className="Section">
-      {/* <ArrowTop /> */}
+    <div className="Section About" data-aos="fade-up" data-offset="100">
+      <h2>
+          NYC native and Tufts University graduate
+      </h2>
       <div className="About-imgs">
         <img src={cityKids} alt="City Kids"/>
         <img src={dumbo} alt="Dumbo"/>
         <img src={washingtonSquare} alt="Washington Square Park"/>
       </div>
       <div className="About-content">
-        <p>
-          If the above images didn't already clue you in, I did in fact grow up in New York City!
-        </p>
         <p>
           I discovered my passion for software engineering in college at Tufts University, almost by accident, when I ended up in “Introduction To Computer Science” as a requirement for my “Cognitive and Brain Sciences” major. I quickly realized it was the class I enjoyed best. In my senior year, I explored personal interests in Artificial Intelligence and Web Programming, the latter of which I particularly loved.
         </p>

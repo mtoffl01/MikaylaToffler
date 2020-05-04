@@ -2,8 +2,6 @@ import React from 'react';
 import '../App.css';
 import Header from './Header'
 import Projects from './Projects'
-import cx from 'classnames';
-import {CSSTransition} from 'react-transition-group';
 import { animateScroll } from "react-scroll";
 import About from './About'
 import Connect from './Connect'
@@ -12,7 +10,7 @@ class MainPage extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      displayAbout: false,
+      displayAbout: true,
       displayProjects: false,
       displayConnect: false
     }
@@ -26,14 +24,14 @@ class MainPage extends React.Component{
       displayAbout: true,
       displayProjects: false,
       displayConnect: false
-    }, this.scrollToBottom)
+    })
   }
   displayProjects(){
     this.setState({
       displayAbout: false,
       displayProjects: true,
       displayConnect: false
-    }, this.scrollToBottom);
+    });
   }
   displayConnect(){
     this.setState({
