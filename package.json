@@ -2,6 +2,7 @@
   "name": "portfol",
   "version": "0.1.0",
   "private": true,
+  // "homepage": "https://mtoffl01.github.io/myPortfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
@@ -13,6 +14,7 @@
     "@testing-library/user-event": "^7.2.1",
     "aos": "^3.0.0-beta.6",
     "classnames": "^2.2.6",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
@@ -26,7 +28,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    // "predeploy": ""
   },
   "eslintConfig": {
     "extends": "react-app"
