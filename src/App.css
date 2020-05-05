@@ -22,7 +22,7 @@ a{
 }
 
 .nameTitle{
-  font-size: 35px;
+  font-size: 40px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -54,7 +54,7 @@ button {
   color: #ffe6e6;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ff4a4a;
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: none;
   padding: 15px;
 }
