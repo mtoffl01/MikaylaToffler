@@ -14,7 +14,7 @@ const Projects = () => {
           <p className="project-description">TasteMakers is a mobile social media
             application for sharing image-driven experiences with your friends. As a full stack developer on this group project, I worked across the stack with a particular focus on the user profile, uploading posts, and the explore page. My team used the Node.js Sentiment machine learning model in order to detect positive engagement with particular posts and preferentially render similar content on the user's explore page.
           </p>
-          <a href="https://github.com/tastemakers-node-feratu/capstone1" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.youtube.com/watch?v=Jh6wxaCV14Q&list=PLx0iOsdUOUmk6YoAw7y5AbHeXf45tuNnF&index=15" rel="noopener noreferrer" target="_blank">
             <FaAngleDoubleRight size={50} className="viewBtn" color="#ffe6e6"/>
           </a>
         </div>

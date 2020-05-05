@@ -24,14 +24,14 @@ class MainPage extends React.Component{
       displayAbout: true,
       displayProjects: false,
       displayConnect: false
-    })
+    }, this.scrollTo)
   }
   displayProjects(){
     this.setState({
       displayAbout: false,
       displayProjects: true,
       displayConnect: false
-    });
+    }, this.scrollTo);
   }
   displayConnect(){
     this.setState({
@@ -42,8 +42,12 @@ class MainPage extends React.Component{
   }
   scrollToBottom() {
     animateScroll.scrollToBottom({
-      containerId: "Section"
+      containerId: "Section",
+      duration: 1000
     });
+  }
+  scrollTo() {
+    animateScroll.scrollTo(400);
   }
   render(){
     return(
