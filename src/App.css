@@ -22,10 +22,12 @@ a{
 }
 
 .nameTitle{
+  font-size: 35px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 .jobTitle{
+  font-size: 25px;
   margin-top: 0px;
 }
 
@@ -52,7 +54,7 @@ button {
   color: #ffe6e6;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ff4a4a;
-  font-size: 45px;
+  font-size: 25px;
   text-decoration: none;
   padding: 15px;
 }
