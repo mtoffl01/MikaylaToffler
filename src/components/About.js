@@ -20,7 +20,7 @@ const About = (props) => {
           After graduating in May 2019 with a computer science minor, I taught web development for Girls Who Code and Kode With Klossy. It was exciting to watch my young-woman pupils grasping the power of technology.
         </p>
         <p>
-          After the summer ended, I enrolled in Grace Hopper Fullstack Academy. My experience at GHFSA further solidified my passion for writing code and watching it come to life. I look forward to harnessing my technical and social skills further to make a difference in real world problems with creative technology solutions.
+          After the summer ended, I enrolled in a full stack engineering program through Grace Hopper Fullstack Academy. My experience at GHFSA further solidified my passion for writing code and watching it come to life. I look forward to further harnessing my technical and social skills to make a difference in real world problems with creative technology solutions.
         </p>
       </div>
     </div>
