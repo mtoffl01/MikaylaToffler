@@ -54,7 +54,7 @@ button {
   color: #ffe6e6;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ff4a4a;
-  font-size: 35px;
+  font-size: 30px;
   text-decoration: none;
   padding: 15px;
 }
@@ -114,14 +114,14 @@ button:hover {
 }
 
 @keyframes bounce {
-  to { -webkit-transform: scale(1.2); }
+  to { -webkit-transform: scale(1.5); }
 }
 
 .viewBtn{
   border-radius: 8px;
   padding-top: 10px;
   color: #ffe6e6;
-  animation: bounce 0.7s infinite alternate;
+  animation: bounce 0.8s infinite alternate;
   cursor: pointer;
 }
 
@@ -139,16 +139,16 @@ button:hover {
 }
 
 .About-imgs img{
-  width: 18%;
+  width: 20%;
   border-radius: 4px;
   margin-right:10px;
   margin-left: 10px;
 }
 
 .About-content {
-  width: 60%;
+  width: 63%;
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 auto;
   color: #ffe6e6;
 }
